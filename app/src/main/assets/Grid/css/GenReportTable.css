@@ -1,0 +1,126 @@
+﻿.card {
+     background:  0 4px 8px 0 rgba(0,0,0,0.2);
+     background-color: #fff;
+}
+
+.card:hover {
+     background: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+@media all{
+.container {
+    padding: 2px 2px;
+     font-family:"mahdi-regular";
+}
+
+@font-face {
+   font-family: 'myface';
+   src: url('file:///android_asset/mahdi-regular.ttf');
+}
+
+	h1 {
+    text-align: center;
+     font-family:myface;
+}
+.tableClass table {
+    font-family:myface, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    width: 100%;
+    font-weight:normal;
+    font-size:small;
+    border-spacing:0px;
+  cellspacing:0px;
+   
+    
+    
+
+}
+
+
+.cellWithborder td {
+    border: 3px solid #000;
+   
+ 
+     white-space:nowrap;
+     text-align:center;
+     font-size:small;
+     font-weight:bold;
+     
+ font-family:myface;
+     color: Black;
+    cellspacing:0px;
+     border-spacing:0px;
+     padding-top: 1px;
+         padding-bottom: 0px;
+
+}
+
+.cellWithborder th  {
+    border: 3px solid #000;
+
+
+     white-space:nowrap;
+     text-align:center;
+     font-size:medium;
+     font-weight:bold;
+      font-family:myface;
+
+  background-color: #6200EE;
+     color: white;
+    cellspacing:0px;
+     border-spacing:0px;
+     padding-top: 0px;
+         padding-bottom: 0px;
+         height:40px;
+
+}
+  .cellWithborder tr{
+       background-color: White;
+        font-family:myface;
+
+
+	}
+        .cellWithborder tr:hover {
+          background-color: #bbb;
+    }
+
+
+ .cellNoborder td,.cellNoborder th {
+    border: 0px solid #bbb;
+   
+     white-space:nowrap;
+     text-align:justify;
+       font-family:myface;
+     background-color: White;
+     color: Black;
+     padding-top: 0px;
+         padding-bottom: 0px;
+   
+
+}
+
+
+
+
+p {
+    line-height: 1.7;
+}
+
+
+
+  .textinputaslable
+        {
+            /* For Firefox */
+            background-color: White;
+            border-color: #000 #000 #000 #000;
+            border: 0px;
+            width:100%;
+           
+        }
+
+
+
+
+
+}

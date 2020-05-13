@@ -1,0 +1,2 @@
+rootProject.name='MyNewGridDemo'
+include ':app'
