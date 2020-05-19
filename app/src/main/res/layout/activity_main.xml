@@ -19,8 +19,19 @@ android:id="@+id/tv_titl"
         />
 
     <Button
+        android:id="@+id/btn_showReport"
+        android:text="Show Report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
         android:id="@+id/btn_add"
-        android:text="add"
+        android:text="add to list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_Share"
+        android:text="Share"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <com.yemensoft.htmlreportslibrary.UI.MyTableView
